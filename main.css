@@ -1,0 +1,339 @@
+/*******
+GENERAL
+*******/
+
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;   
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/*******
+HEADING
+*******/
+
+header {
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8ems;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/**********
+NAVIGATION
+**********/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 600;
+    padding: 15px 10px;
+}
+
+
+
+
+/******
+FOOTER
+******/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/***************
+PAGE: PORTFOLIO
+***************/
+
+#gallery {
+    margin: 0;
+    padding: 0;
+}
+
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+
+}
+
+
+#gallery li a p {
+    margin: 0;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+
+.index-images {
+    width: 102.3%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.index-images img {
+    width: 102.3%;
+    display: block;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.photos-images {
+    width: 40%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.photos-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.route-images {
+    width: 105.2%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.route-images img {
+   display: block;
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto; 
+}
+
+
+
+/***********
+PAGE: ABOUT
+***********/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+
+
+/*************
+PAGE: CONTACT
+*************/
+
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+
+
+/************
+CONTACT FORM
+************/
+
+.submitform {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25px;
+    /* background-color: #f5f5f5; */
+   /* border: 1px solid darkgray; */
+    padding: 15px;
+}
+
+.textbox {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #93d3ff;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 7px;
+    font-size: 16px;
+    float: left;
+    /*color: #93d3ff;*/
+}
+
+
+.textbox:focus {
+    background-color: #cdebff;
+}
+
+
+.submitbutton {
+    width: 180px;
+    height: 43px;
+    font-size: 18px;
+    border: none;
+    background-color: #2a7fb8;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-right: -11px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+
+/******
+COLORS
+******/
+
+/* site body */
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* green header */
+
+header {
+    background: #6ab47b;
+    border-color: #599a68;
+}
+ 
+
+/* nav background on mobile */
+
+nav {
+    background: #599a68;
+}
+
+
+/* logo text */
+
+h1, h2 {
+    color: #fff;
+} 
+
+
+
+/* links */
+
+a {
+    color: #6ab47b;
+}
+
+
+
+/* nav link */
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+
+/* selected nav link */
+
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
